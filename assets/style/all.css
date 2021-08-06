@@ -9005,8 +9005,7 @@ textarea.form-control-lg {
 
 /* 圖片取代文字 */
 body {
-  font-family: 'Lato','roboto','Noto Sans TC','Microsoft JhengHei', sans-serif;
-  line-height: 1.5rem; }
+  font-family: 'Lato','roboto', sans-serif; }
 
 img {
   max-width: 100%;
@@ -9029,18 +9028,27 @@ textarea {
 
 .header {
   width: 296px; }
-
-.logo a {
-  display: block;
-  text-indent: 101%;
-  overflow: hidden;
-  white-space: nowrap;
-  background: url(../images/logo-ANSWER.svg) no-repeat;
-  width: 151px;
-  height: 40px; }
-
-.user_photo {
-  width: 40px;
-  height: 40px; }
+  .header .logo {
+    margin-bottom: 1.25rem; }
+    .header .logo a {
+      display: block;
+      text-indent: 101%;
+      overflow: hidden;
+      white-space: nowrap;
+      background: url(../images/logo-ANSWER.svg) no-repeat;
+      width: 151px;
+      height: 40px; }
+  .header .user_photo {
+    width: 40px;
+    height: 40px; }
+  .header .nav-link {
+    padding: 0.25rem 2rem;
+    margin: 0.75rem 0;
+    line-height: 1.5; }
+    .header .nav-link:hover {
+      background: #dee2e6; }
+  .header .active {
+    border-left: 4px solid #198754;
+    color: #198754; }
 
 /*# sourceMappingURL=all.css.map */
