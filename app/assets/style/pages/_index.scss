@@ -1,0 +1,34 @@
+.assignment-main{
+    .active{
+        background: $gray-100;
+        color: $dark;
+        border: 1px solid $gray-400;
+    }
+
+    .tab-pane{
+        border: 1px;
+        h3{
+            font-size: $font-size-base !important;
+        }
+    }
+
+    .ck-editor__editable {
+        min-height: 100%;
+        z-index: 999;
+        border: 0;
+        border: 0 !important;
+
+        
+
+        p{
+            color: $gray-400;
+        }
+    }
+
+    .ck-content{min-height: 300px;}
+    .ck.ck-editor__top .ck-sticky-panel .ck-toolbar{
+        border: 0 !important;
+        border-bottom: 1px solid $gray-400 !important;
+    }
+    
+}

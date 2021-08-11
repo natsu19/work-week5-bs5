@@ -1,0 +1,28 @@
+.modal-img {
+    width: 141px;
+    height: 141px;
+    object-fit: cover;
+}
+
+.form-group{
+    border-bottom:1px solid $gray-400;
+    padding-bottom: $spacer*6;
+    margin-bottom: $spacer*6;
+
+    h6{
+        font-size: $h5-font-size;
+        font-weight: $font-weight-bold;
+        padding-bottom: $spacer*4;
+    }
+
+    .input-disable{
+        background: $light;
+        counter-reset: $gray-600;
+        border: 0 !important;
+    }
+    
+    .btn-disable{
+        color: $gray-400;
+    }
+
+}

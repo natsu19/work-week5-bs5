@@ -1,0 +1,8 @@
+/* 圖片取代文字 */
+@mixin text-hiden{
+    display: block;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+    @content;
+}

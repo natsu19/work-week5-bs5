@@ -1,0 +1,46 @@
+
+*:focus{
+    outline: none;
+    box-shadow: 0 0 0 2px #cccccccc;
+}
+
+body{
+    font-family: 'Lato','roboto', sans-serif;
+    color: $dark;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+	vertical-align: middle;
+}
+
+a , .btn-link{
+	text-decoration: none;
+    color: $dark;
+
+    &:hover{
+        color: $success;
+    }
+}
+
+code{
+    color: $success;
+    background: $light;
+}
+
+.material-icons{
+    vertical-align: middle;
+}
+
+
+
+//移除iOS原生樣式
+input[type="button"], input[type="submit"], input[type="reset"],input[type=text],input[type=password]
+{ -webkit-appearance: none; } 
+textarea { -webkit-appearance: none;}
+
+
+
+
+

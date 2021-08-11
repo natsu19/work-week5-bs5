@@ -1,0 +1,29 @@
+.sidebar{
+    width: 296px;
+
+    .logo{
+        a{
+            @include text-hiden(){
+                background: url(../images/logo-ANSWER.svg) no-repeat;
+                width: 151px;
+                height: 40px;
+            }
+        }
+        margin-bottom: ($spacer * 7);
+    }
+
+
+    .nav-link{
+        padding: $spacer ($spacer * 8) ;
+        margin-bottom: ($spacer * 4);
+
+        &:hover{
+            background: $gray-300;
+        }
+    }
+    .active{
+        border-left:4px solid $success;
+        color: $success;
+        padding-left: ($spacer * 7);
+    }
+}
