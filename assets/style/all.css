@@ -11149,10 +11149,6 @@ textarea.form-control-lg {
     display: none !important; } }
 
 /* 圖片取代文字 */
-.user_photo {
-  width: 40px;
-  height: 40px; }
-
 *:focus {
   outline: none;
   -webkit-box-shadow: 0 0 0 2px #cccccccc;
@@ -11232,6 +11228,10 @@ textarea {
 .assignment-main .ck.ck-editor__top .ck-sticky-panel .ck-toolbar {
   border: 0 !important;
   border-bottom: 1px solid #ced4da !important; }
+
+.user_photo {
+  width: 40px;
+  height: 40px; }
 
 .modal-img {
   width: 141px;
